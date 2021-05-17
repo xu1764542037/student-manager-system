@@ -1,0 +1,356 @@
+*{
+    background: url("../img/loginBg.jpg") no-repeat fixed center;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: PingFang-SC-Regular,Helvetica,"Microsoft Yahei","微软雅黑";
+    overflow: hidden;
+}
+#LoginBox {
+    position: absolute;
+    width: 480px;
+    height: 680px;
+    border-radius: 12px;
+    margin-top: -400px;
+    top: 50%;
+    right: 139px;
+    background: rgba(255,255,255,.7);
+    z-index:1111;
+}
+#LoginBox {
+    /*display: none;*/
+}
+
+#welcome {
+    margin: 50px 0 22px 39px;
+    background: rgba(255,255,255,.0);
+}
+
+#welcome h1{
+    font-size: 36px;
+    background: rgba(255,255,255,.0);
+}
+
+#welcome p {
+    background: rgba(255,255,255,.0);
+    font-size: 14px;
+    color: darkgrey;
+    padding-top: 3px;
+}
+
+#welcome p span {
+    background: rgba(255,255,255,.0);
+    color: #2E58FF;
+    cursor: pointer;
+}
+
+#inputAccount {
+    background: rgba(255,255,255,.7);
+    padding-top: 60px;
+}
+
+#inputAccount .user{
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputAccount #accountNumber {
+    background: rgba(255, 255, 255, .7);
+    width: 343px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    outline-color: #2E58FF;
+}
+
+#inputPasswd {
+    background: rgba(255,255,255,.7);
+    padding-top: 70px;
+}
+
+#inputPasswd .userPwd{
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputPasswd #password{
+    background: rgba(255,255,255,.7);
+    width: 343px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 8px;
+    outline-color: #2E58FF;
+}
+
+#inputCode {
+    background: rgba(255,255,255,.7);
+    padding-top: 70px;
+    position: relative;
+}
+
+#inputCode .codeText {
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputCode #code {
+    background: rgba(255,255,255,.7);
+    width: 185px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    outline-color: #2E58FF;
+}
+
+#inputCode #codeImg {
+    background: rgba(255,255,255,.0);
+    width: 100px;
+    height: 50px;
+    margin-top: -8px;
+    margin-left: 58px;
+    position: absolute;
+}
+
+#btn {
+    background: rgba(255,255,255,.0);
+    padding-top: 80px;
+    padding-left: 45px;
+}
+
+#L{
+    width: 390px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background: #BDCEFC;
+    color: #fefefe;
+    font-size: 18px;
+    outline: none;
+}
+#L:hover {
+    background: #3f89ec;
+}
+
+#forget {
+    background: rgba(255,255,255,.7);
+    padding-left: 45px;
+    padding-top: 10px;
+    color: #2E82FF;
+    cursor: pointer;
+
+}
+
+
+
+/*!*注册面板*!*/
+#RegisterBox {
+    position: absolute;
+    width: 480px;
+    height: 680px;
+    border-radius: 12px;
+    margin-top: -400px;
+    top: 50%;
+    right: 139px;
+    background: rgba(255,255,255,.7);
+    display: none;
+
+}
+
+#welcome2 {
+    margin: 50px 0 22px 39px;
+    background: rgba(255,255,255,.0);
+}
+
+#welcome2 h1{
+    font-size: 36px;
+    background: rgba(255,255,255,.0);
+}
+
+#welcome2 p {
+    background: rgba(255,255,255,.0);
+    font-size: 14px;
+    color: darkgrey;
+    padding-top: 3px;
+}
+
+#welcome2 p span {
+    background: rgba(255,255,255,.0);
+    color: #2E58FF;
+    cursor: pointer;
+
+}
+
+#inputAccount2 {
+    background: rgba(255,255,255,.7);
+    padding-top: 20px;
+}
+
+#inputAccount2 .user2{
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputAccount2 #RidER{
+    background: rgba(255,255,255,.7);
+    width: 343px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 9px;
+    outline-color: #2E58FF;
+}
+
+#inputName {
+    background: rgba(255,255,255,.7);
+    padding-top: 35px;
+
+}
+
+#inputName .userName{
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputName #RnameER{
+    background: rgba(255,255,255,.7);
+    width: 343px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    outline-color: #2E58FF;
+}
+
+#inputPasswd2 {
+    background: rgba(255,255,255,.7);
+    padding-top: 35px;
+}
+
+#inputPasswd2 .userPwd2{
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputPasswd2 #RpwdER{
+    background: rgba(255,255,255,.7);
+    width: 343px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 8px;
+    outline-color: #2E58FF;
+}
+
+#inputEmail {
+    background: rgba(255,255,255,.7);
+    padding-top: 35px;
+}
+
+#inputEmail .userEmail{
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputEmail #RemailER{
+    background: rgba(255,255,255,.7);
+    width: 343px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 8px;
+    outline-color: #2E58FF;
+}
+
+#inputPhone {
+    background: rgba(255,255,255,.7);
+    padding-top: 35px;
+}
+
+#inputPhone .userPhone{
+    background: rgba(255,255,255,.0);
+    color: #585A58;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#inputPhone #RphoneER{
+    background: rgba(255,255,255,.7);
+    width: 343px;
+    height: 35px;
+    border: 1px #BDC2CC solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    outline-color: #2E58FF;
+}
+
+#btn2 {
+    background: rgba(255,255,255,.0);
+    padding-top: 46px;
+    padding-left: 45px;
+}
+
+#R{
+    width: 390px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background: #BDCEFC;
+    color: #fefefe;
+    font-size: 18px;
+    outline: none;
+}
+#R:hover {
+    background: #3f89ec;
+}
+
+#lastChoice {
+    background: rgba(255,255,255,.0);
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#lastChoice #respect {
+    background: rgba(255,255,255,.0);
+    font-size: 12px;
+}
+
+#lastChoice #respect #agreement {
+    background: rgba(255,255,255,.0);
+    color: #2E58FF;
+    cursor: pointer;
+}
+
+#lastChoice #respect #statement {
+    background: rgba(255,255,255,.0);
+    color: #2E58FF;
+    cursor: pointer;
+}
+
+#stealing {
+    position: absolute;
+    padding-top: 47%;
+    padding-left: 48%;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+

@@ -1,0 +1,143 @@
+@charset "utf-8";
+*{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+body{
+    background: url("../img/bg2.png") no-repeat fixed center;
+    text-align: center;
+}
+#tabBar{
+    padding-bottom: 50px;
+}
+#box{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+#tableOne{
+    margin: 0 auto;
+    width: 84%;
+    border-collapse: collapse;
+    border-radius: 2%;
+}
+#tableOne tr{
+    height: 63px;
+}
+#tableOne tr:hover{
+    background: #F5F7FA;
+}
+#tableOne tr th{
+    font-size: 28px;
+    font-weight: 700;
+    border: 0.5px #EBEEF5 solid;
+    background: #F5F7FA;
+    color: #909399;
+}
+#tableOne tr td{
+    border: 0.5px #EBEEF5 solid;
+    text-align: center;
+    top: 100px;
+    /*td中的文字居中*/
+    vertical-align:middle;
+    color:  #606266;
+    font-weight: 500;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+}
+#addOrEditBox{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+#addOrEdit{
+    width: 400px;
+    height: 400px;
+    display: none;
+    background: #EBEEF5;
+    box-shadow: 0 0  30px 5px #B8D2FA;
+    border-radius: 10px;
+}
+#addOrEdit tr td{
+    font-size: 20px;
+    font-weight: 700;
+    color: #B0C5F5;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+}
+#addOrEdit tr td input[type=text]{
+    border-radius: 5px;
+    width: 200px;
+    border: 1px #B0C5F5 solid;
+}
+#saveBox {
+    padding-left: 80%;
+}
+#save {
+    background: #B0C5F5;
+    color: #fefefe;
+    border: 0;
+    border-radius: 3px;
+}
+#no {
+    background: #B0C5F5;
+    color: #fefefe;
+    border: 0;
+    border-radius: 3px;
+}
+#tBody tr td a{
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+    color:  #606266;
+    text-decoration:blink;
+}
+
+
+#btnAdd,#btnDelete{
+    width: 160px;
+    height: 41px;
+    background-color:#9999CC;
+    color: #fefefe ;
+    border-radius: 5px;
+    border: 0;
+}
+
+#goIndex {
+    margin-right: 58%;
+    width: 160px;
+    height: 41px;
+    background-color:#9999CC;
+    color: #fefefe ;
+    border-radius: 5px;
+    border: 0;
+}
+
+#btnFind {
+    width: 80px;
+    height: 41px;
+    background-color:#9999CC;
+    color: #fefefe ;
+    border-radius: 5px;
+    border: 0;
+}
+
+#textCondition{
+    background-color:transparent;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    border: 5px #9999CC solid;
+}
+
+
+#addOrEdit tr td #id,#name,#special,#department{
+    background-color:transparent;
+    color: black;
+}
+#stealing{
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+    text-align: center;
+    padding-top: 46%;
+}
+
+input[type=checkbox] {
+    height: 30px;
+    width: 30px;
+}
