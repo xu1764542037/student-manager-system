@@ -36,10 +36,7 @@ export default {
 
 }
 .item-1st:hover {
-  background: rgba(255,255,255,.7);
-  border-bottom: 3px #8FCBFF solid;
-  color: black;
-  box-shadow: 0 0  30px 1px #C9DCFA;
+
 }
 
 </style>
