@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="nav-bar-item" @click="itemClick">
+    <div class="nav-bar-item">
       <div class="item-1st"><slot></slot></div>
     </div>
   </div>

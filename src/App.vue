@@ -35,4 +35,9 @@ body{
   -ms-user-select: none;
   user-select: none;
 }
+
+
+input{
+  padding-left: 5px;
+}
 </style>
